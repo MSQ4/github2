@@ -6,7 +6,6 @@ def convert(seconds):
     seconds %= 60
 
     return "%d:%02d:%02d" % (hour, minutes, seconds)
-
-# Driver program
+    
 n = 12345
 print(convert(n))
